@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&family=Roboto:wght@100&family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 80vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar{
+    display: flex;
+    height: 53px;
+}
+.navbar li{
+    list-style: none;
+    margin: 0px 14px;
+}
+.section1{
+    height: 80vh;
+}
+.section1 h1{
+    font-size: 1.8rem;
+}
+.top-left{
+width: 80%;
+padding: 14px 0px;
+}
+.top-right{
+width: 40%;
+height: 90vh;
+margin-left:38px ;
+}
+.top-right img{
+width: 38vw;
+}
+.logo{
+    font-size: 1.3rem;
+}
+.dumbell{
+    width: 10vw;
+}
+.section2 h1{
+font-size: 2rem;
+
+}
+.section2{
+   padding: 50px;
+}
+.box{
+    margin: 13px 10px;
+    min-width: 50vh;
+    border: 2px solid #d84343;
+    border-radius: 8px;
+    /* padding: 8px 0px; */
+}
+.box ul{
+    list-style: none;
+}
+.box ul li{
+    margin: 13px 2px;
+}
+.box h2{
+ 
+
+   padding: 15px 0px;
+}
+.plantable{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.section3 table{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 150px;
+    border-collapse: collapse;
+}
+.section3 h1{
+    font-size: 2rem;
+}
+.section3{
+   padding: 50px;
+}
+.section3 th{
+width: 40vw;
+border-bottom: 2px solid black;
+padding: 16px 0px;
+}
+
+.section3 td{
+    border-bottom: 2px solid black;
+
+}
+footer{
+    padding: 23px;
+    text-align: center;
+}
+body hr{
+    border: 1px solid #d84343;
+}
